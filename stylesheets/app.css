@@ -1,0 +1,66 @@
+.visuallyhidden { 
+  position: absolute; 
+  overflow: hidden; 
+  clip: rect(0 0 0 0); 
+  height: 1px; width: 1px; 
+  margin: -1px; padding: 0; border: 0; 
+}
+
+#albums, #photos{
+  position:absolute;
+  top:0px;
+  left: 0px;
+}
+
+#photos{
+  top:30px;
+}
+
+#goback{
+  margin-left:20px;
+}
+
+.photo-facebook{
+  width: 300px;
+  display: block;
+  height: 200px;
+  overflow:hidden;
+  float: left;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.photo-facebook > div{
+  height: 100%;
+  display: block;
+  overflow: hidden;
+}
+
+.photo-facebook img{
+  width:100%;
+  cursor: pointer;
+}
+
+.albums_content{
+  cursor: pointer;
+}
+
+.album-photos{
+  width: 300px;
+  text-align: center;
+  display: block;
+  float: left;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  overflow: hidden;
+}
+
+#wrapper-albums{
+  border-left: 1px solid #b3b3b3;
+  border-right: 1px solid #b3b3b3;
+  border-bottom: 1px solid #b3b3b3;
+  height:400px;
+  position: relative;
+  overflow-y:auto;
+  overflow-x:hidden;
+}
